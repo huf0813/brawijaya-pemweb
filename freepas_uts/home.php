@@ -29,7 +29,6 @@ $uname = $_SESSION['username'];
 
 <script>
     $(document).ready(function () {
-        let result = "";
         $.ajax({
             url: "https://jsonplaceholder.typicode.com/posts",
             type: "get",
